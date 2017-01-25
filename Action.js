@@ -79,6 +79,10 @@ function Action()
 			]
 		}
 	);
+
+	lr.logMessage();
+
+	
 	
 	// Add some comments
 
