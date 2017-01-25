@@ -35,6 +35,8 @@ function Action()
 
 //	web.addCookie('_gat=1; DOMAIN=fae-uom.symplectic.org');
 
+	lr.continueOnError();
+
 	web.url(
 		{
 			name : 'vivo', 
@@ -79,10 +81,6 @@ function Action()
 			]
 		}
 	);
-
-	lr.logMessage();
-
-	
 	
 	// Add some comments
 
