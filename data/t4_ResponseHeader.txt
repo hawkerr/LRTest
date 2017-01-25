@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Tue, 24 Jan 2017 03:05:54 GMT
+Server: Apache-Coyote/1.1
+X-FRAME-OPTIONS: SAMEORIGIN
+Accept-Ranges: bytes
+ETag: W/"18028-1484745290000"
+Last-Modified: Wed, 18 Jan 2017 13:14:50 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 18028
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+

@@ -1,0 +1,11 @@
+GET /vivo/themes/melbourne-bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1
+Host: fae-uom.symplectic.org
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+Origin: http://fae-uom.symplectic.org
+Accept: */*
+Referer: http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/css/bootstrap.min.css
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+Cookie: JSESSIONID=7012811D42AA500DEE63EE2B0258B28B
+

@@ -1,0 +1,316 @@
+/*============================================================
+ This CSS is for any styles that are across the entire theme. 
+==============================================================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+/*=============================================================================================
+ If you are using LESS, you can change the colours used in the bootstrap theme here so that you don't need to edit the CSS templates.
+ ============================================================================================ */
+/* Colour of the header */
+/* Color of footer */
+/* Color of footer contact */
+/* Complimentary to the base, used in section backgrounds on the homepage */
+/* Color of system name - "Find an expert" */
+/* Link colors */
+/*======================================= 
+Homepage colours 
+=========================================*/
+/* The colours of the large icons beneath the search on the homepage */
+/* About our data section */
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #0076de;
+}
+.underline-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.underline-title:after {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 5em;
+  border-bottom: 2px solid #000;
+  content: '';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*---------------------------------------------
+Styling identity.ftl header
+----------------------------------------------*/
+header#branding {
+  padding-bottom: 3.9em;
+}
+.header {
+  box-shadow: 0 2px 10px #afafaf;
+  position: fixed;
+  height: 85px;
+  z-index: 100;
+  background-color: white;
+  width: 100%;
+}
+.header img {
+  width: 100%;
+  max-width: 150px;
+  background-color: #004576;
+  z-index: 100;
+  position: absolute;
+}
+.header h1 {
+  display: inline-block;
+  text-indent: 170px;
+  margin-top: 1.5em;
+}
+.header h1 a {
+  color: #004576;
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: 400;
+}
+.header .visible-xs-block {
+  text-align: center;
+}
+.header .visible-xs-block h1 {
+  margin: 0 0 15px 0;
+}
+.header .logo-sm {
+  text-align: left;
+}
+.header .header-search {
+  margin-top: 0.8em;
+}
+.header #lg-browse {
+  float: right;
+}
+#sticky-nav {
+  z-index: 1;
+}
+#sticky-nav .navbar-header {
+  display: none;
+}
+#sticky-nav .form-control {
+  height: 36px;
+}
+@media (min-width: 768px) {
+  #sticky-nav .navbar-form {
+    padding-left: 0;
+  }
+}
+button.btn.sympl-search {
+  background: #004576;
+  text-shadow: 0 0 0 transparent;
+  color: #fff;
+  border: 2px solid #c9c9c9;
+}
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+.page-title-section {
+  margin-top: 5em;
+}
+/******************************************
+Browse page styling across all categories
+******************************************/
+section#browse-by {
+  margin: 2em auto auto auto;
+}
+section#browse-by nav#side-filters {
+  margin-bottom: 1.2em;
+}
+section#browse-by ul#browse-classes {
+  list-style: none;
+  padding: 0;
+}
+section#browse-by nav#alpha-browse-container.panel {
+  margin-bottom: 0;
+  border-radius: 3px 3px 0 0;
+  border-bottom: 0;
+}
+section#browse-by nav#alpha-browse-container.panel h3.selected-class {
+  margin: 0;
+  padding: 1em 0;
+}
+section#browse-by nav#alpha-browse-container.panel ul#alpha-browse-individuals {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+section#browse-by nav#alpha-browse-container.panel ul#alpha-browse-individuals li {
+  display: inline-block;
+  margin: auto 0.35em auto auto;
+}
+section#browse-by nav#alpha-browse-container.panel ul#alpha-browse-individuals li a.selected {
+  background: #c9c9c9;
+  padding: 2px;
+  border-radius: 4px;
+}
+section#browse-by section#individuals-in-class {
+  border: 1px solid #ececec;
+  border-width: 0 1px 1px 1px;
+  margin-bottom: 1em;
+}
+section#browse-by section#individuals-in-class .pagination {
+  padding: 0.8em 1em;
+  border-bottom: 1px solid #c9c9c9;
+  /* These two are just to normalize bootstrap css */
+  border-radius: 0;
+  margin: 0;
+  width: 100%;
+}
+section#browse-by section#individuals-in-class .pagination h3 {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  font-size: 16px;
+}
+section#browse-by section#individuals-in-class .pagination ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+section#browse-by section#individuals-in-class .pagination ul li.round {
+  display: inline-block;
+  padding: 0 0.35em;
+  margin: 0;
+}
+section#browse-by section#individuals-in-class .pagination ul li.round.selected {
+  background: #c9c9c9;
+  border-radius: 4px;
+}
+section#browse-by section#individuals-in-class ul {
+  padding: 1em 0;
+  list-style: none;
+}
+section#browse-by section#individuals-in-class ul li.individual {
+  margin: 1.2em;
+}
+section#browse-by section#individuals-in-class ul li.individual h2 a {
+  font-size: 18px;
+}
+/********************************************************
+Styling for the RDF pages of data categories
+*********************************************************/
+section.individualList ul.pagination li,
+section.individualList ul.pagination li.selectedNavPage {
+  display: inline-block;
+  vertical-align: middle;
+}
+section.individualList ul.pagination li a,
+section.individualList ul.pagination li.selectedNavPage a {
+  border-radius: 4px;
+}
+section.individualList ul.pagination li.selectedNavPage {
+  padding: 6px 12px;
+  background: #ececec;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+}
+section.individualList ul {
+  list-style: none;
+  padding: 0;
+}
+section.individualList ul li {
+  padding: 3px 0;
+}
+/********************************************************
+These are helper classes to add margin gaps where needed
+*********************************************************/
+.gap20 {
+  margin-top: 20px;
+}
+.gap30 {
+  margin-top: 30px;
+}
+.gap40 {
+  margin-top: 40px;
+}
+.gap50 {
+  margin-top: 50px;
+}
+/***********************************
+// Beginning of footer styling //
+***********************************/
+footer.footer {
+  padding: 35px 30px 36px;
+  border-top: 1px solid #010508;
+  background-color: #0c304a;
+  text-align: center;
+}
+footer.footer #people-links {
+  border: 1px solid #304e64;
+  border-width: 1px 0 1px 0;
+  margin: 0;
+}
+footer.footer #people-links li {
+  display: inline-block;
+  margin: auto 1.5em auto auto;
+  vertical-align: middle;
+  padding: 1em 0;
+}
+footer.footer #people-links li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.6em;
+}
+footer.footer #people-links li a:hover {
+  text-decoration: underline;
+}
+footer.footer .footer-ack {
+  padding: 2em 0;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-size: 1.15em;
+  font-style: italic;
+  border-bottom: 1px solid #304e64;
+  color: #82a1bd;
+  margin: 0;
+}
+footer.footer .footer-nav {
+  display: inline-block;
+  margin: auto auto 2em  auto;
+  list-style: none;
+  padding-top: 2.5em;
+  text-align: left;
+  color: #82a1bd;
+}
+footer.footer .footer-nav li {
+  display: inline-block;
+  margin-right: 2em;
+}
+footer.footer .footer-nav li a {
+  color: #82a1bd;
+  font-size: 0.9em;
+  transition: all 0.7s;
+}
+footer.footer .footer-nav li a:hover {
+  text-decoration: underline;
+}
+footer.footer .footer-contact {
+  color: #82a1bd;
+  text-align: left;
+  font-size: 0.9em;
+}
+footer.footer #social-block {
+  margin: auto auto 25px auto;
+}
+footer.footer #social-block a {
+  margin: auto 10px auto auto;
+}
+footer.footer p.copyright {
+  color: #222222;
+  font-size: 0.9em;
+  margin: 1em auto auto auto;
+}
+.footer-logo {
+  margin-bottom: 10px;
+}

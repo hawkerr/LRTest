@@ -1,0 +1,59 @@
+Virtual User Script started at : 24/01/2017 2:30:19 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 8.1; build 1982 (Jan 24 2017 21:02:03)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\9770uu-lr\Documents\VuGen\Scripts\WebHttpHtml6\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.js(10): web.setSocketsOption started  	[MsgId: MMSG-26355]
+Action.js(10): web.setSocketsOption was successful  	[MsgId: MMSG-26392]
+Action.js(38): web.url("vivo") started  	[MsgId: MMSG-26355]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/css/bootstrap.min.css" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/css/bootstrap-theme.css" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/css/theme.css" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/css/homepage.css" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/css/individual.css" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/css/login.css" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/js/vitroUtils.js" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/js/bootstrap.min.js" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/js/publicationTableFilter.js" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/js/login/loginUtils.js" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/js/homePageUtils.js?version=x" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://d2h9b02ioca40d.cloudfront.net/shared/assets/logo.png" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/images/indicatorWhite.gif" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Downloading resource "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/images/homehero.jpg" (specified by argument number 20)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/images/bizeco.jpg" (specified by argument number 23)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/images/arts.jpg" (specified by argument number 26)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "https://www.google-analytics.com/analytics.js" (specified by argument number 29)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/images/law.jpg" (specified by argument number 31)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/images/medicine.png" (specified by argument number 34)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "http://fae-uom.symplectic.org/vivo/dataservice?getRandomSearchIndividualsByVClass=1&vclassId=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson&page=130677&pageSize=8" (specified by argument number 37)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "https://www.google-analytics.com/r/collect?v=1&_v=j47&a=140234453&t=pageview&_s=1&dl=http%3A%2F%2Ffae-uom.symplectic.org%2Fvivo%2F&ul=en-gb&de=UTF-8&dt=VIVO&sd=24-bit&sr=1366x768&vp=1349x645&je=0&fl=24.0%20r0&_u=AEAAAMABI~&jid=1094016181&cid=1494250174.1485227156&tid=UA-294324-15&_r=1&z=883702369" (specified by argument number 39)  	[MsgId: MMSG-26577]
+Action.js(38): Downloading resource "http://fae-uom.symplectic.org/vivo/images/placeholders/person.bordered.thumbnail.jpg" (specified by argument number 41)  	[MsgId: MMSG-26577]
+Action.js(38): Found resource "http://fae-uom.symplectic.org/vivo/themes/melbourne-bootstrap/images/uom-logo-horiz.png" in HTML "http://fae-uom.symplectic.org/vivo/"  	[MsgId: MMSG-26659]
+Action.js(38): Warning -26604: Unsupported "Content-Encoding"  	[MsgId: MWAR-26604]
+Action.js(38): Notify: Transaction "http://fae-uom.symplectic.org/vivo/css/login.css" will be skipped - could not calculate the transaction time (duration=0.3341, think_time=0.0000, wasted_time=1.0638).
+Action.js(38): web.url("vivo") highest severity level was "warning", 1972272 body bytes, 10524 header bytes, 141 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.js(65): web.url("glyphicons-halflings-regular.woff2") started  	[MsgId: MMSG-26355]
+Action.js(65): Downloading resource "https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.js(65): Downloading resource "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.js(65): Downloading resource "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.js(65): Downloading resource "https://www.gstatic.com/chrome/config/plugins_2/plugins_win.json" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.js(65): web.url("glyphicons-halflings-regular.woff2") was successful, 173641 body bytes, 2022 header bytes  	[MsgId: MMSG-26386]
+Action.js(142): web.customRequest("experimentstatus") started  	[MsgId: MMSG-26355]
+Action.js(142): web.customRequest("experimentstatus") was successful, 20 body bytes, 500 header bytes, 143 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

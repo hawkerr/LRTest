@@ -1,0 +1,20 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: vivo",
+        "infFile": "t1.inf",
+        "time": 1485228624587
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Url: glyphicons-halflings-regular.woff2",
+        "infFile": "t2.inf",
+        "time": 1485228625317
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Custom Request: experimentstatus",
+        "infFile": "t3.inf",
+        "time": 1485228625622
+    }
+]
