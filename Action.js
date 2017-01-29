@@ -34,7 +34,7 @@ function Action()
 	//web.addCookie('_ga=GA1.2.1494250174.1485227156; DOMAIN=fae-uom.symplectic.org');
 
 //	web.addCookie('_gat=1; DOMAIN=fae-uom.symplectic.org');
-
+//added some comments
 
 	web.url(
 		{
