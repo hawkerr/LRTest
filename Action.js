@@ -35,7 +35,6 @@ function Action()
 
 //	web.addCookie('_gat=1; DOMAIN=fae-uom.symplectic.org');
 
-	lr.continueOnError();
 
 	web.url(
 		{
